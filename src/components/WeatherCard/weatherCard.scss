@@ -1,0 +1,56 @@
+.card .blue-gradient .card-img-top {
+  width: 70px;
+  margin-left: 15px;
+}
+
+div.card {
+  border-radius: 15px;
+  max-width: 200px;
+  .card-title {
+    font-weight: 600;
+  }
+}
+
+.characteristic {
+  font-weight: 500;
+  margin: 0 5% 0 3%;
+  vertical-align: middle;
+  &-1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  &-2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.description {
+  font-size: 18px;
+  height: 40px;
+}
+
+@media (max-width: 1199.98px) {
+  .card .blue-gradient .card-img-top {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .description {
+    font-size: 14px;
+    height: 30px;
+  }
+
+  .characteristic {
+    font-weight: 500;
+    margin: 0 5% 0 3%;
+    line-height: 24px;
+    vertical-align: middle;
+    &-1 {
+      font-size: 24px;
+    }
+    &-2 {
+      font-size: 18px;
+    }
+  }
+}
